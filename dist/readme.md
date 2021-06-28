@@ -1,19 +1,37 @@
-# Title for read me: l 
+# Title for read me: Read Me 
 
-  ## GitHub User: l
+  ## Table of Contents
 
-  ## User Email: l
+  [About](#About)
+  [Project](#Project)
 
-  ### Project Name: l
 
-  #### Project Description: l
 
-  ##### Repo License: MIT
+
+
+  # About -
+
+  #### GitHub User: imjord
+
+  #### User Email: imjord@aol.com
+
+
+
+
+
+
+  # Project -
+
+  ## Project Name: Read Me Gen
+
+  #### Project Description: It generates a read me!
+
+  ##### Repo License: GPL3.0
+
+  #### Repo Info: It generates a read me for any of your projects!
 
   #### Badge: 
 
-  ![badge](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)
-
-  ###### Repo Info: l
+  ![badge](https://img.shields.io/static/v1?label=License&message=GPL3.0&color=blue)
 
 

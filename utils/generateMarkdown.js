@@ -3,20 +3,15 @@
 
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if(!license) {
+  if(license === 'NONE') {
     return '';
 
+  } else {
+    return `![badge](https://img.shields.io/static/v1?label=License&message=${license}&color=blue)`
   }
-  return `![badge](https://img.shields.io/static/v1?label=License&message=${license}&color=blue)`
+  
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {
-  if(!license) {
-    return '';
-  }
-}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -26,21 +21,39 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# Title for read me: ${data.title} 
 
-  ## GitHub User: ${data.userName}
+  ## Table of Contents
 
-  ## User Email: ${data.email}
+  [About](#About)
+  [Project](#Project)
 
-  ### Project Name: ${data.projectName}
+
+
+
+
+  # About -
+
+  #### GitHub User: ${data.userName}
+
+  #### User Email: ${data.email}
+
+
+
+
+
+
+  # Project -
+
+  ## Project Name: ${data.projectName}
 
   #### Project Description: ${data.projectDescription}
 
   ##### Repo License: ${data.licenseType}
 
+  #### Repo Info: ${data.know}
+
   #### Badge: 
 
   ${renderLicenseBadge(data.licenseType)}
-
-  ###### Repo Info: ${data.know}
 
 
 `;

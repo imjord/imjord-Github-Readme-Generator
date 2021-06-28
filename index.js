@@ -72,7 +72,7 @@ const userQuestions =  [
             type: 'checkbox',
             name: 'licenseType',
             message: 'What license would you like to apply?(use the arrow keys please)',
-            choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'NONE'],
+            choices: ['MIT', 'APACHE2.0', 'GPL3.0', 'BSD3', 'NONE'],
             
         },
         {
