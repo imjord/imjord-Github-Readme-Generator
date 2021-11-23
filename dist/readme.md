@@ -1,37 +1,37 @@
-# Title for read me: Read Me 
+# Title: PortFolio 
 
   ## Table of Contents
 
-  [About](#About)
-  [Project](#Project)
+  [About](#about)
+  [Project](#project)
 
 
 
 
 
-  # About -
+  # About
 
   #### GitHub User: imjord
 
-  #### User Email: imjord@aol.com
+  #### User Email: jordanharperjs@gmail.com
 
 
 
 
 
 
-  # Project -
+  # Project
 
-  ## Project Name: Read Me Gen
+  ## Project Name: IMJORD PORTFOLIO
 
-  #### Project Description: It generates a read me!
+  #### Project Description: My portfolio made using react and sass.
 
-  ##### Repo License: GPL3.0
+  ##### Repo License: 
 
-  #### Repo Info: It generates a read me for any of your projects!
+  #### Repo Info: Mobile responsive w.i.p.
 
   #### Badge: 
 
-  ![badge](https://img.shields.io/static/v1?label=License&message=GPL3.0&color=blue)
+  ![badge](https://img.shields.io/static/v1?label=License&message=&color=blue)
 
 
