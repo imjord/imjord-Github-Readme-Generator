@@ -1,4 +1,4 @@
-console.log("\x1b[32m", "Welcome to imjords README generator template!");
+console.log("\x1b[32m", "Welcome to imjords README generator template!!!");
     
 console.log("\x1b[31m", "Please be aware of markdown syntax when answering questions or your README will not be formatted correctly thank you!");
 console.log("=============================================================================================================");
