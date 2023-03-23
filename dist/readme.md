@@ -1,24 +1,24 @@
 <a name="readme-top"></a>
 
-  ![GitHub contributors](https://img.shields.io/github/contributors/imjord/imjord-Github-Readme-Generator?color=%23454B1B&label=CONTRIBUTORS%20%3C3&style=for-the-badge)
-  ![GitHub forks](https://img.shields.io/github/forks/imjord/imjord-Github-Readme-Generator?style=for-the-badge)
-  ![GitHub Repo stars](https://img.shields.io/github/stars/imjord/imjord-Github-Readme-Generator?style=for-the-badge)
-  ![GitHub](https://img.shields.io/github/license/imjord/imjord-Github-Readme-Generator?style=for-the-badge)
+  ![GitHub contributors](https://img.shields.io/github/contributors/imjord/Favorite-Games-Library?color=%23454B1B&label=CONTRIBUTORS%20%3C3&style=for-the-badge)
+  ![GitHub forks](https://img.shields.io/github/forks/imjord/Favorite-Games-Library?style=for-the-badge)
+  ![GitHub Repo stars](https://img.shields.io/github/stars/imjord/Favorite-Games-Library?style=for-the-badge)
+  ![GitHub](https://img.shields.io/github/license/imjord/Favorite-Games-Library?style=for-the-badge)
   
   
   
   
   <div align="center">
-  <h3 align="center">imjord readme generator!</h3>
+  <h3 align="center">Favorite Games Launcher</h3>
 <p align="center">
- Create ReadMes For All Your Projects From The Command Line!
+ Add games to your library and launch them all from one place
 <br />
 <br />
-<a href="https://github.com/imjord/imjord-Github-Readme-Generator">View Demo</a>
+<a href="https://github.com/imjord/Favorite-Games-Library">View Demo</a>
  ·
-      <a href="https://github.com/imjord/imjord-Github-Readme-Generator/issues">Report Bug</a>
+      <a href="https://github.com/imjord/Favorite-Games-Library/issues">Report Bug</a>
       ·
-      <a href="https://github.com/imjord/imjord-Github-Readme-Generator/issues">Request Feature</a>
+      <a href="https://github.com/imjord/Favorite-Games-Library/issues">Request Feature</a>
     </p>
   </div>
   
@@ -55,7 +55,7 @@
   
   
   
-  I updated my readme generator to follow the template made by othneildrew/Best-README-Template
+  You can add games to your library which will then be added to a myfavoritegames folder that is created on app load. your games shortcuts will be placed in that folder and you will be able to launch them from the favorite games library launcher app.
   
   
   
@@ -66,8 +66,10 @@
   ### Built With
   
   
-   ![image](https://img.shields.io/badge/Node-<3-red?style=for-the-badge&logo=appveyor})
-     ![image](https://img.shields.io/badge/Javascript-<3-red?style=for-the-badge&logo=appveyor})
+   ![image](https://img.shields.io/badge/electron-<3-green?style=for-the-badge&logo=appveyor})
+     ![image](https://img.shields.io/badge/javascript-<3-green?style=for-the-badge&logo=appveyor})
+     ![image](https://img.shields.io/badge/node-<3-green?style=for-the-badge&logo=appveyor})
+     ![image](https://img.shields.io/badge/css-<3-green?style=for-the-badge&logo=appveyor})
     
   
   
@@ -82,23 +84,27 @@
   
   ### Prerequisites
   
- node
+ windows only, if you have any problems put them in issues please <3
   
   ### Installation
   
   1. Clone the repo
       ```sh
-      git clone https://github.com/imjord/imjord-Github-Readme-Generator.git
+      git clone https://github.com/imjord/Favorite-Games-Library.git
       ```
   2. Install NPM packages in both client and server folders
       ```sh
       npm install
       ```
-  3. Run the start commands in both client and server folders(if there not their just do it from the root folder)(commands are in the package.json files).
+  3. Create a .env file in the server folder and add your own MongoDB URI
+      ```sh
+      MONGODB_URI=YOUR_OWN_MONGODB_URI
+      ```
+  4. Run the start commands in both client and server folders (commands are in the package.json files).
       ```sh
       npm start / npm run dev
       ```
-  4. Enjoy! made with <3 by imjord
+  5. Enjoy! made with <3 by imjord
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
@@ -107,7 +113,7 @@
   <!-- USAGE EXAMPLES -->
   ## Usage
   
-  npm i in the root directory and run by using node index then follow the prompts!
+  clone this repo and you will find the app inside the out folder / favoritegames 64/ exe for app here. once you launch it you can click the add game button and a windows dialog will open for you to find your game exe. once selected the game will be listed on the app with a play button and remove button. play button will launch the game and remove will remove it from the folder and list. 
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
@@ -116,10 +122,10 @@
   <!-- ROADMAP -->
   ## Roadmap
   
-  - [] better formating, make it more dynamic
+  - [] Figure out how to make it so you dont need steam/epic/riot/ea launcher to be running for you to open and play the game but i think that might not be legal so this is the best i could do.
   
   
-  See the [open issues](https://github.com/imjord/imjord-Github-Readme-Generator/issues) for a full list of future proposed features (and known issues).
+  See the [open issues](https://github.com/imjord/Favorite-Games-Library/issues) for a full list of future proposed features (and known issues).
   
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
@@ -144,7 +150,7 @@
   <!-- LICENSE -->
   ## License
   
-  MIT
+  GPL3.0
   
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
@@ -155,6 +161,6 @@
   
   Just message me on github mang <3 imjord
   
-  Project Link: [https://github.com/imjord/imjord-Github-Readme-Generator](https://github.com/imjord/imjord-Github-Readme-Generator)
+  Project Link: [https://github.com/imjord/Favorite-Games-Library](https://github.com/imjord/Favorite-Games-Library)
   
   <p align="right">(<a href="#readme-top">back to top</a>)</p>

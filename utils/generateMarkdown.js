@@ -1,24 +1,29 @@
 console.log("\x1b[32m", "Welcome to imjords README generator template!!!");
-    
-console.log("\x1b[31m", "Please be aware of markdown syntax when answering questions or your README will not be formatted correctly thank you!");
-console.log("=============================================================================================================");
+
+console.log(
+  "\x1b[31m",
+  "Please be aware of markdown syntax when answering questions or your README will not be formatted correctly thank you!"
+);
+console.log(
+  "============================================================================================================="
+);
 // function to generate markdown for README
 function generateMarkdown(data) {
-  console.log(data)
-
   // data.skillsUsed is a string of skills seperated by commas
   // we need to split the string into an array
   // then we need to map over the array and return a string of markdown for each skill
- 
+
   // const skillsUsed = data.projectSkillsUsed.split(',').map(skill => {
   //   return `* ${skill}
   //   `
   // }).join('')
-  const skillsUsed = data.projectSkillsUsed.split(',').map(skill => {
-    return ` ![image](https://img.shields.io/badge/${skill}-<3-${data.badgeColor}?style=for-the-badge&logo=appveyor})
-    `
-  }).join('')
- 
+  const skillsUsed = data.projectSkillsUsed
+    .split(",")
+    .map((skill) => {
+      return ` ![image](https://img.shields.io/badge/${skill}-<3-${data.badgeColor}?style=for-the-badge&logo=appveyor})
+    `;
+    })
+    .join("");
 
   return `<a name="readme-top"></a>
 
